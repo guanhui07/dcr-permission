@@ -27,12 +27,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Casbin\\WebmanPermission\\": "src"
+      "Casbin\\DcrPermission\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Casbin\\WebmanPermission\\Tests\\": "tests/"
+      "Casbin\\DcrPermission\\Tests\\": "tests/"
     }
   },
   "require-dev": {

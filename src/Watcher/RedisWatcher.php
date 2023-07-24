@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Casbin\WebmanPermission\Watcher;
+namespace Casbin\DcrPermission\Watcher;
 
 
 use Casbin\Persist\Watcher;

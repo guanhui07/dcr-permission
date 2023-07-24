@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace Casbin\WebmanPermission\Model;
+namespace Casbin\DcrPermission\Model;
 
 use Illuminate\Cache\Repository;
 use Illuminate\Database\Eloquent\Model;

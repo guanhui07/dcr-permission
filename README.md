@@ -89,7 +89,7 @@ php start.php restart -d
 安装成功后，可以这样使用:
 
 ```php
-use Casbin\WebmanPermission\Permission;
+use Casbin\DcrPermission\Permission;
 
 // adds permissions to a user
 Permission::addPermissionForUser('eve', 'articles', 'read');
@@ -121,7 +121,7 @@ if (Permission::enforce("eve", "articles", "edit")) {
 
 1、卸载DI依赖包：`composer remove php-di/php-di`
 
-2、修改：`Casbin\WebmanPermission\Permission` 文件
+2、修改：`Casbin\DcrPermission\Permission` 文件
 
 ```php
 if (is_null(static::$_manager)) {
